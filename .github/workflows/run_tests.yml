@@ -18,7 +18,7 @@ jobs:
           POSTGRES_PASSWORD: test_pass
           POSTGRES_DB: test_db
         ports:
-          - 5431:5432
+          - 5432:5432
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
@@ -44,7 +44,7 @@ jobs:
         id: tests
         continue-on-error: true
         env:
-          DATABASE_URL: postgresql://test_user:test_pass@localhost:5431/test_db
+          DATABASE_URL: postgresql://test_user:test_pass@localhost:5432/test_db
           DEBUG: "True"
           AWS_ACCESS_KEY_ID: ""
           AWS_SECRET_ACCESS_KEY: ""
