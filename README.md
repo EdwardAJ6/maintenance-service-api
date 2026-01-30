@@ -268,7 +268,7 @@ La forma más sencilla de ejecutar el proyecto es usando Docker.
 
 1. **Clonar el repositorio**
 ```bash
-git clone <url-del-repositorio>
+git clone https://github.com/EdwardAJ6/maintenance-service-api.git
 cd maintenance-service-api
 ```
 
@@ -356,7 +356,7 @@ docker-compose ps
 1. **Clonar el repositorio**
 
 ```bash
-git clone <url-del-repositorio>
+git clone https://github.com/EdwardAJ6/maintenance-service-api.git
 cd maintenance-service-api
 ```
 
